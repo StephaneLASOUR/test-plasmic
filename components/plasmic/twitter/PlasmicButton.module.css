@@ -1,0 +1,39 @@
+.root {
+  transition-property: all;
+  transition-duration: 0.3s;
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 30px;
+  position: relative;
+  box-shadow: inset 0px 0px 0px 1px var(--token-V6W3tD02PXw4);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 999px;
+  border-width: 1px;
+  border-style: none;
+}
+.rootoptions_primary {
+  padding-left: 14px;
+  padding-right: 14px;
+  height: 37px;
+  background: rgb(42, 163, 239);
+}
+.root:hover {
+  background: rgba(0, 169, 255, 0.09);
+}
+.rootoptions_primary:hover {
+  background: rgb(36, 148, 218);
+}
+.root:focus {
+  outline: none;
+}
+.slotTargetChildren {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--token-V6W3tD02PXw4);
+}
+.slotTargetChildrenoptions_primary {
+  color: rgb(255, 255, 255);
+}

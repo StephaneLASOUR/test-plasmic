@@ -1,0 +1,102 @@
+.root {
+  flex-direction: row;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  padding: 2px 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-left: 10px;
+}
+.rootoptions_labeled {
+  width: 80px;
+}
+.rootoptions_labeled > :global(.__wab_flex-container) {
+  justify-content: flex-start;
+}
+.root:focus {
+  outline: none;
+}
+.freeBox___33HGc {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.freeBoxoptions_medium___33HGc2710 {
+  width: 23px;
+  height: 23px;
+  flex-shrink: 0;
+}
+.freeBoxoptions_large___33HGcUh3C {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+}
+.freeBox__wEhyh {
+  transition-property: all;
+  transition-duration: 0.3s;
+  display: block;
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 999px;
+}
+.root:hover .freeBox__wEhyh {
+  position: absolute;
+  background: rgb(233, 243, 255);
+}
+.slotTargetChildrenoptions_primary {
+  color: var(--token-V6W3tD02PXw4);
+}
+.root:hover .slotTargetChildren {
+  color: var(--token-V6W3tD02PXw4);
+}
+.svg__tD4Fm {
+  transition-property: all;
+  transition-duration: 0.3s;
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  min-height: 0;
+}
+.slotTargetSlot {
+  color: var(--token-N22kA8NH6sB1);
+}
+.slotTargetSlot > *,
+.slotTargetSlot > .__wab_slot > *,
+.slotTargetSlot > .__wab_slot > .__wab_slot > *,
+.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSlot > picture > img,
+.slotTargetSlot > .__wab_slot > picture > img,
+.slotTargetSlot > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSlot > .__wab_slot > .__wab_slot > .__wab_slot > picture > img {
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.root:hover .slotTargetSlot {
+  color: var(--token-V6W3tD02PXw4);
+}

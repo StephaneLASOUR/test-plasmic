@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  position: relative;
+}
+.img__f8Fcm {
+  object-fit: cover;
+  width: 49px;
+  height: 49px;
+  position: relative;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+.img__f8Fcm > picture > img {
+  object-fit: cover;
+}
+.img__f8Fcm > .__wab_img-spacer > img {
+  object-fit: cover;
+}
