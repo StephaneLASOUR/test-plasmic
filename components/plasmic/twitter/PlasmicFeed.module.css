@@ -277,6 +277,10 @@
   min-width: 0;
   min-height: 0;
 }
+.boutonRed__kUkRz:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
 .freeBox__hc2Ch {
   display: flex;
   position: relative;
@@ -320,6 +324,10 @@
   position: relative;
   left: auto;
   top: auto;
+}
+.boutonRed__kvDmJ:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
 }
 .spacer___9A4th:global(.__wab_instance) {
   position: relative;
@@ -433,6 +441,14 @@
   top: auto;
   min-width: 0;
 }
+.boutonRed__gdj7G:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.boutonRed__tY0Q:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
 .newTweetInput {
   position: relative;
   font-size: 18px;
@@ -446,6 +462,18 @@
 }
 .root .newTweetInput::placeholder {
   color: rgb(165, 165, 165);
+}
+.boutonRed__a1Y8S:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.boutonRed___7YYbY:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.boutonRed__py19M:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
 }
 .freeBox___4XQuU {
   display: flex;
@@ -570,6 +598,26 @@
   min-width: 0;
   min-height: 0;
 }
+.button2:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 24px;
+  margin-right: 33px;
+  height: 89px;
+  flex-shrink: 0;
+}
+.svg___6PNh1 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__oaJvf {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
 .spacer__b00Wb:global(.__wab_instance) {
   position: relative;
   top: auto;
@@ -579,6 +627,10 @@
   position: relative;
   top: auto;
   left: auto;
+}
+.boutonRed__gvYzH:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
 }
 .tweetList {
   display: flex;
@@ -710,6 +762,10 @@
 .tweet__mYuNh:global(.__wab_instance) {
   position: relative;
 }
+.boutonRed__go8Fz:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
 .img__wc7A0 {
   object-fit: cover;
   width: 49px;
@@ -724,6 +780,10 @@
   object-fit: cover;
 }
 .tweet__uTde:global(.__wab_instance) {
+  position: relative;
+}
+.boutonRed__ywN0S:global(.__wab_instance) {
+  max-width: 100%;
   position: relative;
 }
 .img__mjHa {
@@ -857,6 +917,11 @@
 }
 .img__mKeuY > .__wab_img-spacer > img {
   object-fit: cover;
+}
+.button:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  flex-shrink: 0;
 }
 .freeBox__aCn2 {
   flex-direction: column;

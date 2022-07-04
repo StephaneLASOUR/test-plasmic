@@ -35,8 +35,10 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import ActionButton from "../../ActionButton"; // plasmic-import: Kw25oLZaMx3/component
+import BoutonRed from "../../BoutonRed"; // plasmic-import: IUBzKgL12L/component
 import Spacer from "../../Spacer"; // plasmic-import: mMfpdSZguarx/component
 import Avatar from "../../Avatar"; // plasmic-import: r-Q4nz0OELxu/component
+import Button2 from "../../Button2"; // plasmic-import: E2IqP1YU8It/component
 import Button from "../../Button"; // plasmic-import: upJGYFxFWp8T/component
 import Tweet from "../../Tweet"; // plasmic-import: Q-5iAFzkJ6TL/component
 import SideSection from "../../SideSection"; // plasmic-import: BjOUYhoMAIAL/component
@@ -65,6 +67,8 @@ import Icon3Icon from "./icons/PlasmicIcon__Icon3"; // plasmic-import: K-KDszTh3
 import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: JFjyuoC_pTUp/icon
 import Icon5Icon from "./icons/PlasmicIcon__Icon5"; // plasmic-import: DiibcFprWh4F/icon
 import Icon7Icon from "./icons/PlasmicIcon__Icon7"; // plasmic-import: ZkdN3HP0Bh_S/icon
+import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: G2kCcVgU4Mx/icon
+import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: _ru6oKaFh-6/icon
 import SearchIcon from "./icons/PlasmicIcon__Search"; // plasmic-import: nvD_7SSA81fF/icon
 
 export type PlasmicFeed__VariantMembers = {};
@@ -81,8 +85,10 @@ export type PlasmicFeed__OverridesType = {
   root?: p.Flex<"div">;
   avatar?: p.Flex<typeof Avatar>;
   newTweetInput?: p.Flex<"textarea">;
+  button2?: p.Flex<typeof Button2>;
   tweetButton?: p.Flex<typeof Button>;
   tweetList?: p.Flex<"div">;
+  button?: p.Flex<typeof Button>;
   searchInput?: p.Flex<"input">;
 };
 
@@ -314,6 +320,13 @@ function PlasmicFeed__RenderFunc(props: {
                       className={classNames(projectcss.all, sty.svg__zhEQp)}
                       role={"img"}
                     />
+
+                    <BoutonRed
+                      className={classNames(
+                        "__wab_instance",
+                        sty.boutonRed__kUkRz
+                      )}
+                    />
                   </ActionButton>
                 </div>
               ) : null}
@@ -336,6 +349,13 @@ function PlasmicFeed__RenderFunc(props: {
                     >
                       {"Home"}
                     </div>
+
+                    <BoutonRed
+                      className={classNames(
+                        "__wab_instance",
+                        sty.boutonRed__kvDmJ
+                      )}
+                    />
 
                     <Spacer
                       className={classNames(
@@ -386,6 +406,20 @@ function PlasmicFeed__RenderFunc(props: {
                     <div
                       className={classNames(projectcss.all, sty.freeBox__xuk8G)}
                     >
+                      <BoutonRed
+                        className={classNames(
+                          "__wab_instance",
+                          sty.boutonRed__gdj7G
+                        )}
+                      />
+
+                      <BoutonRed
+                        className={classNames(
+                          "__wab_instance",
+                          sty.boutonRed__tY0Q
+                        )}
+                      />
+
                       <textarea
                         data-plasmic-name={"newTweetInput"}
                         data-plasmic-override={overrides.newTweetInput}
@@ -396,6 +430,27 @@ function PlasmicFeed__RenderFunc(props: {
                         )}
                         placeholder={"What's happening?" as const}
                         rows={1 as const}
+                      />
+
+                      <BoutonRed
+                        className={classNames(
+                          "__wab_instance",
+                          sty.boutonRed__a1Y8S
+                        )}
+                      />
+
+                      <BoutonRed
+                        className={classNames(
+                          "__wab_instance",
+                          sty.boutonRed___7YYbY
+                        )}
+                      />
+
+                      <BoutonRed
+                        className={classNames(
+                          "__wab_instance",
+                          sty.boutonRed__py19M
+                        )}
                       />
 
                       <div
@@ -496,6 +551,17 @@ function PlasmicFeed__RenderFunc(props: {
                               role={"img"}
                             />
                           </ActionButton>
+
+                          <Button2
+                            data-plasmic-name={"button2"}
+                            data-plasmic-override={overrides.button2}
+                            className={classNames(
+                              "__wab_instance",
+                              sty.button2
+                            )}
+                          >
+                            {"sqdqsd"}
+                          </Button2>
                         </p.Stack>
 
                         <Spacer
@@ -518,6 +584,13 @@ function PlasmicFeed__RenderFunc(props: {
                         </Button>
                       </div>
                     </div>
+
+                    <BoutonRed
+                      className={classNames(
+                        "__wab_instance",
+                        sty.boutonRed__gvYzH
+                      )}
+                    />
                   </div>
                 </div>
               ) : null}
@@ -665,13 +738,55 @@ function PlasmicFeed__RenderFunc(props: {
                   }
                   username={"@mxstbr"}
                 >
-                  {
-                    "Tell me you're a React developer without telling me you're a React developer."
-                  }
+                  <BoutonRed
+                    className={classNames(
+                      "__wab_instance",
+                      sty.boutonRed__go8Fz
+                    )}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___25X8
+                    )}
+                  >
+                    {
+                      "Tell me you're a React developer without telling me you're a React developer."
+                    }
+                  </div>
                 </Tweet>
 
                 <Tweet
                   className={classNames("__wab_instance", sty.tweet__uTde)}
+                  photo={
+                    <React.Fragment>
+                      <BoutonRed
+                        className={classNames(
+                          "__wab_instance",
+                          sty.boutonRed__ywN0S
+                        )}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__mjHa)}
+                        displayHeight={"49px" as const}
+                        displayMaxHeight={"none" as const}
+                        displayMaxWidth={"none" as const}
+                        displayMinHeight={"0" as const}
+                        displayMinWidth={"0" as const}
+                        displayWidth={"49px" as const}
+                        src={{
+                          src: "/plasmic/twitter/images/image3.png",
+                          fullWidth: 400,
+                          fullHeight: 400,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </React.Fragment>
+                  }
                 />
 
                 <Tweet
@@ -812,6 +927,12 @@ function PlasmicFeed__RenderFunc(props: {
                     "Tell me you're a React developer without telling me you're a React developer."
                   }
                 </Tweet>
+
+                <Button
+                  data-plasmic-name={"button"}
+                  data-plasmic-override={overrides.button}
+                  className={classNames("__wab_instance", sty.button)}
+                />
               </div>
             </div>
 
@@ -1133,14 +1254,18 @@ const PlasmicDescendants = {
     "root",
     "avatar",
     "newTweetInput",
+    "button2",
     "tweetButton",
     "tweetList",
+    "button",
     "searchInput"
   ],
   avatar: ["avatar"],
   newTweetInput: ["newTweetInput"],
+  button2: ["button2"],
   tweetButton: ["tweetButton"],
-  tweetList: ["tweetList"],
+  tweetList: ["tweetList", "button"],
+  button: ["button"],
   searchInput: ["searchInput"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -1150,8 +1275,10 @@ type NodeDefaultElementType = {
   root: "div";
   avatar: typeof Avatar;
   newTweetInput: "textarea";
+  button2: typeof Button2;
   tweetButton: typeof Button;
   tweetList: "div";
+  button: typeof Button;
   searchInput: "input";
 };
 
@@ -1214,8 +1341,10 @@ export const PlasmicFeed = Object.assign(
     // Helper components rendering sub-elements
     avatar: makeNodeComponent("avatar"),
     newTweetInput: makeNodeComponent("newTweetInput"),
+    button2: makeNodeComponent("button2"),
     tweetButton: makeNodeComponent("tweetButton"),
     tweetList: makeNodeComponent("tweetList"),
+    button: makeNodeComponent("button"),
     searchInput: makeNodeComponent("searchInput"),
 
     // Metadata about props expected for PlasmicFeed

@@ -144,6 +144,33 @@
           "cssFilePath": "plasmic/twitter/PlasmicSuggestion.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "IUBzKgL12L",
+          "name": "BoutonRed",
+          "type": "managed",
+          "projectId": "tXtxfUL95PU6ZxWcFtpsj",
+          "renderModuleFilePath": "plasmic/twitter/PlasmicBoutonRed.tsx",
+          "importSpec": {
+            "modulePath": "BoutonRed.tsx"
+          },
+          "cssFilePath": "plasmic/twitter/PlasmicBoutonRed.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "E2IqP1YU8It",
+          "name": "Button2",
+          "type": "managed",
+          "projectId": "tXtxfUL95PU6ZxWcFtpsj",
+          "renderModuleFilePath": "plasmic/twitter/PlasmicButton2.tsx",
+          "importSpec": {
+            "modulePath": "Button2.tsx"
+          },
+          "cssFilePath": "plasmic/twitter/PlasmicButton2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
         }
       ],
       "icons": [
@@ -316,6 +343,16 @@
           "id": "ZkdN3HP0Bh_S",
           "name": "Icon7Icon",
           "moduleFilePath": "plasmic/twitter/icons/PlasmicIcon__Icon7.tsx"
+        },
+        {
+          "id": "G2kCcVgU4Mx",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/twitter/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "_ru6oKaFh-6",
+          "name": "Icon8Icon",
+          "moduleFilePath": "plasmic/twitter/icons/PlasmicIcon__Icon8.tsx"
         }
       ],
       "images": [
@@ -387,6 +424,12 @@
         "name": "Screen",
         "projectId": "tXtxfUL95PU6ZxWcFtpsj",
         "contextFilePath": "plasmic/twitter/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "A9XeWYAzyn",
+        "name": "Experiment",
+        "projectId": "tXtxfUL95PU6ZxWcFtpsj",
+        "contextFilePath": "plasmic/twitter/PlasmicGlobalVariant__Experiment.tsx"
       }
     ]
   },
